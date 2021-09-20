@@ -1,0 +1,77 @@
+import { RSA_NO_PADDING } from "constants";
+
+const menu = [
+    {
+      id: 1,
+      title: 'Dosa',
+      category: 'breakfast',
+      price: 30,
+      img: 'https://sukhis.com/wp-content/uploads/2020/01/Dosa-500x400.jpg',
+      desc: `A dosa is a thin pancake or crepe, originating from South India, made from a fermented batter predominantly consisting of lentils and rice.`,
+    },
+    {
+      id: 2,
+      title: 'Chicken Biryani',
+      category: 'lunch',
+      price: 300,
+      img: 'https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani-600x600.jpg',
+      desc: `Chicken Biryani is a delicious savory rice dish that is loaded with spicy marinated chicken, caramelized onions, and flavorful saffron rice. `,
+    },
+    {
+      id: 3,
+      title: 'Oreo Milkshake',
+      category: 'shakes',
+      price: 40,
+      img: 'https://saltandbaker.com/wp-content/uploads/2020/12/New-Oreo-Milkshake-3.jpg',
+      desc: `An oreo milkshake is a simple blended drink made with vanilla ice cream, milk, and oreo cookies.`,
+    },
+    {
+      id: 4,
+      title: 'Puri',
+      category: 'breakfast',
+      price: 30,
+      img: 'https://www.spiceupthecurry.com/wp-content/uploads/2019/06/poori-bhaji-recipe-12-500x500.jpg',
+      desc: `Puri is a deep-fried bread made from unleavened whole-wheat flour that originated in the Indian subcontinent. It is eaten for breakfast or as a snack or light meal.`,
+    },
+    {
+      id: 5,
+      title: 'Mutton Biryani',
+      category: 'lunch',
+      price: 400,
+      img: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2019/02/mutton-biryani-recipe.jpg',
+      desc: `Mutton Biryani is a royal dish with beautifully spiced and fragrant layers of biryani rice centered with juicy, tender mutton and spices.`,
+    },
+    {
+      id: 6,
+      title: 'Strawberry Milkshake',
+      category: 'shakes',
+      price: 50,
+      img: 'https://bakewithshivesh.com/wp-content/uploads/2021/03/IMG_6974-scaled.jpg',
+      desc: `A strawberry milkshake is a simple blended drink made with strawberries, vanilla ice cream, milk, and sugar.`,
+    },
+    {
+      id: 7,
+      title: 'Idli',
+      category: 'breakfast',
+      price: 30,
+      img: 'https://images.herzindagi.info/image/2021/May/Main-soft-Idli-recipe-in-hindi.jpg',
+      desc: `Idli are a type of savoury rice cake, popular as breakfast foods in Southern India. The cakes are made by steaming a batter consisting of fermented black lentils and rice. `,
+    },
+    {
+      id: 8,
+      title: 'Paneer Biryani',
+      category: 'lunch',
+      price: 350,
+      img: 'https://s9c2c8i7.rocketcdn.me/wp-content/uploads/2020/05/paneer-biryani.jpg',
+      desc: ` Paneer Biryani is a super delicious and aromatic Indian rice entree made using fragrant basmati rice, cubes of paneer (Indian cottage cheese) and spices.`,
+    },
+    {
+      id: 9,
+      title: 'Chocolate Brownie Milkshake',
+      category: 'shakes',
+      price: 50,
+      img: 'https://i.pinimg.com/736x/e3/83/a0/e383a0290e7922d342083b7f698ea7c1.jpg',
+      desc: `Brownie Milkshake is a super decadent treat loaded with brownie chunks and decorated with ganache, this milkshake is packed with delicious chocolate flavour.`,
+    },
+  ];
+  export default menu;
